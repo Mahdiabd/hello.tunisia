@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="Beau pays au nord de l'afrique avec des belles plages, nature verte et pleine d'histoire">
+            <meta name="keywords" content="Tourisme, Histoire, Verdure, Paix, Gastronomie, Nature, Vacances, Plages, Camping, Randonnées, Carthage, Culture">
+            <meta name="author" content="Mahdi ABDERRAHIM">
+            <title>FEEDBACKS</title>
+            <meta property="og:site_name" content="PRGRAMMI TOUNSI">
+            <meta property="og:url" content="https://Visit-tunisia.tn/">
+            <meta property="og:description" content="Pays accueillant, peuple généreux, séjour parfait">
+            <meta name="twitter:title" content="Visit Tunisia">
+            <meta name="facebook:title" content="Visit Tunisia">
+            <meta http-equiv="refresh" content="3000">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="icon" href="res/LOGO.PNG"type="image/png">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <link rel="stylesheet" type="text/css" href="css/admin.css">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+            <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+          </head>
+    <body>
+        <div class="container">
+            <h1 class="brand"><span>Utilisateurs </span>Feedback</h1>
+              <div class="company-info">
+               <table id="myTable"> 
+                  <thead> 
+                    <tr>
+                      <th>Ville</th>
+                      <th>Email</th>
+                      <th>Message</th>
+                      <th>Nom</th>
+                      <th>Tél</th>
+                    </tr>
+                  </thead>
+                  <tbody id="feedbacks"> 
+                   
+                  </tbody>
+               </table>
+              </div>
+          </div>
+          <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+          <script>
+            // Initialize Firebase
+            var config = {
+              apiKey: "AIzaSyARqa-uMjWssJAtvVeBVAgTLIGQX1msAoE",
+              authDomain: "contactform-2b1bc.firebaseapp.com",
+              databaseURL: "https://contactform-2b1bc.firebaseio.com",
+              projectId: "contactform-2b1bc",
+              storageBucket: "contactform-2b1bc.appspot.com",
+              messagingSenderId: "247212784766"
+            };
+            firebase.initializeApp(config);
+          </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>      
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script src="js/admin.js"></script>
+    </body>
+    
+</html>
